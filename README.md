@@ -1,22 +1,26 @@
 # kemal-macro-file-problem
 
-TODO: Write a description here
 
-## Installation
 
-TODO: Write installation instructions here
+## To run
 
+```
+shards install
+crystal src/app.cr
+```
 ## Usage
 
-TODO: Write usage instructions here
+To render `ecr` view
 
-## Development
+`localhost:3000/ecr`
 
-TODO: Write development instructions here
+To see the problem with slang
+
+`localhost:3000/slang`
 
 ## Contributing
 
-1. Fork it ( https://github.com/[your-github-name]/kemal-macro-file-problem/fork )
+1. Fork it ( https://github.com/sdogruyol/kemal-macro-file-problem/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
@@ -24,4 +28,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) Sdogruyol - creator, maintainer
+- [sdogruyol](https://github.com/sdogruyol) Sdogruyol - creator, maintainer
