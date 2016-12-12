@@ -2,7 +2,8 @@ require "kemal"
 require "json"
 require "kilt/slang"
 
-# Slang doesn't work
+# Slang doesn't work __FILE__ in `render` is seen as `macro expanded_tmp_something` unlike `ecr`
+# which works correctly.
 get "/slang" do
   name = "serdar"
   age = 27

@@ -1,7 +1,5 @@
 # kemal-macro-file-problem
 
-
-
 ## To run
 
 ```
