@@ -1,0 +1,15 @@
+name: kemal-sample
+version: 0.1.0
+
+authors:
+  - Sdogruyol <dogruyolserdar@gmail.com>
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    branch: master
+  slang:
+    github: jeromegn/slang
+    branch: master
